@@ -226,11 +226,11 @@
             <div class="row">
                 <div class="col-md-6 col-md-offset-3 o_database_list">
                     <div class="text-center">
-                        <img t-attf-src="/web/static/src/img/logo.png{{ '?dbname='+db if db else '' }}"/>
+                    
                         
                         
                         
-                    <!--    <img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}"/> -->
+                   <img t-attf-src="/web/binary/company_logo{{ '?dbname='+db if db else '' }}"/> 
                     
                     
                     </div>
@@ -304,11 +304,9 @@
         <a class="o_sub_menu_logo" t-att-href="'/web/?debug' if debug else '/web'">
             <span class="oe_logo_edit">Edit Company data</span>
             
-            <!-- <img src='/web/binary/company_logo'/> changed for starting logo -->
-            
-            
-            <img src='/web/static/src/img/logo.png'/>
-
+           <img src='/web/binary/company_logo'/>
+                
+    
             
         </a>
         <div class="o_sub_menu_content">
