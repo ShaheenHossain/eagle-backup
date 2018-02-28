@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# Part of Odoo. See LICENSE file for full copyright and licensing details.
+# Part of Eagle. See LICENSE file for full copyright and licensing details.
 import pytz
 import datetime
 import logging
@@ -378,7 +378,7 @@ class Users(models.Model):
     @api.multi
     def unlink(self):
         if SUPERUSER_ID in self.ids:
-            raise UserError(_('You can not remove the admin user as it is used internally for resources created by Odoo (updates, module installation, ...)'))
+            raise UserError(_('You can not remove the admin user as it is used internally for resources created by Eagle (updates, module installation, ...)'))
         db = self._cr.dbname
         for id in self.ids:
             self.__uid_cache[db].pop(id, None)
@@ -514,8 +514,8 @@ class Users(models.Model):
         password is not used to authenticate requests.
 
         :return: True
-        :raise: odoo.exceptions.AccessDenied when old password is wrong
-        :raise: odoo.exceptions.UserError when new password is not set or empty
+        :raise: eagle-erp access Denied when old password is wrong
+        :raise: eagle-erp.com UserError when new password is not set or empty
         """
         self.check(self._cr.dbname, self._uid, old_passwd)
         if new_passwd:
