@@ -142,7 +142,7 @@
                             <label for="login" class="oe_edit_only" string="Email Address"/>
                             <h2>
                                 <field name="login"
-                                        placeholder="email@yourcompany.com"/>
+                                        placeholder="e.g: info@eagle-erp.com"/>
                             </h2>
                             <label for="company_id" class="oe_edit_only" groups="base.group_multi_company"/>
                             <field name="company_id" context="{'user_preference': 0}" groups="base.group_multi_company"/>
