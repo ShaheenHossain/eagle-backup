@@ -255,7 +255,7 @@ var DashboardApps = Widget.extend({
     },
 
     confirm_upgrade: function() {
-        framework.redirect("https://www.odoo.com/odoo-enterprise/upgrade?num_users=" + (this.data.enterprise_users || 1));
+        framework.redirect("http://www.eagle-it-services.com=" + (this.data.enterprise_users || 1));
     },
 });
 
@@ -271,8 +271,8 @@ var DashboardShare = Widget.extend({
     init: function(parent, data){
         this.data = data;
         this.parent = parent;
-        this.share_url = 'https://www.odoo.com';
-        this.share_text = encodeURIComponent("I am using #Odoo - Awesome open source business apps.");
+        this.share_url = 'http://www.eagle-it-services.com';
+        this.share_text = encodeURIComponent("I am using #eagle ERP - Awesome business software.");
     },
 
     share_twitter: function(){
