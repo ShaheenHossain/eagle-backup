@@ -831,7 +831,7 @@
 
                 <t t-call="web_planner.page">
                     <t t-set="page_title">Notifications</t>
-                    <p class="text-muted">Managing notifications is essential: too few and you risk missing critical information, too many and you will be  overloaded with unnecessary information. The trick is to find the right balance between the projects, stages and tasks you want to be informed about. Fortunately, Odoo Project has many levels of notifications and messages you can choose from.</p>
+                    <p class="text-muted">Managing notifications is essential: too few and you risk missing critical information, too many and you will be  overloaded with unnecessary information. The trick is to find the right balance between the projects, stages and tasks you want to be informed about. Fortunately, Eagle ERP Project has many levels of notifications and messages you can choose from.</p>
                     <div class="o_planner_paragraphs">
                         <div class="row">
                             <div class="col-md-2 icon"><span data-icon="&#xe051;" /></div>
