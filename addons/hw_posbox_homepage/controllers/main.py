@@ -29,21 +29,21 @@ index_template = """
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>Odoo's PosBox</title>
+        <title>Eagle ERP PosBox</title>
 """ + index_style + """
     </head>
     <body>
         <h1>Your PosBox is up and running</h1>
         <p>
         The PosBox is a hardware adapter that allows you to use
-        receipt printers and barcode scanners with Odoo's Point of
-        Sale, <b>version 8.0 or later</b>. You can start an <a href='https://www.odoo.com/start'>online free trial</a>,
-        or <a href='https://www.odoo.com/page/download'>download and install</a> it yourself.
+        receipt printers and barcode scanners with Eagle ERP's Point of
+        Sale, <b>version 8.0 or later</b>. You can start an <a href='http://www.eagle-it-services.com'>online trial</a>,
+        or <a href='https://www.eagle-it-services.com'>download and install</a> it yourself.
         </p>
         <p>
         For more information on how to setup the Point of Sale with
         the PosBox, please refer to
-        <a href='https://www.odoo.com/documentation/user/point_of_sale/posbox/index.html'>the manual</a>.
+        <a href='https://www.eagle-it-services.com'>the manual</a>.
         </p>
         <p>
         To see the status of the connected hardware, please refer 
@@ -63,7 +63,7 @@ index_template = """
         the posbox version number is independent from Odoo. You can upgrade
         the software on the <a href='/hw_proxy/upgrade/'>upgrade page</a>.
         </p>
-        <p>For any other question, please contact the Odoo support at <a href='mailto:help@odoo.com'>help@odoo.com</a>
+        <p>For any other question, please contact the Eagle ERP support at <a href='mailto:eagle.it.services.com@gmail.com'>eagle.it.services.com@gmail.com</a>
         </p>
     </body>
 </html>
