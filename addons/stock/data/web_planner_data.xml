@@ -22,10 +22,10 @@
                         to inventory reduction and better efficiencies in your daily operations.
                     </p>
                     <div class="mt32">
-                        <img class="signature mb8" src="/web_planner/static/src/img/fabien_signature.png"/>
+                        <img class="signature mb8" src=""/>
                         <address>
                             For the Eagle ERP Team,<br/>
-                            Fabien Pinckaers, Founder
+                            Md. Shaheen Hossain, Founder
                         </address>
                     </div>
                 </div>
@@ -458,7 +458,7 @@
                     <h1>Congratulations!</h1>
                     <h4>We hope this guide helped you implement Eagle ERP Inventory.</h4>
                     <p>Do not hesitate to send us an email to describe your experience or to suggest improvements!</p>
-                    <p>Once it's fully working, give us some feedback: we love to hear from our customer. It would be great if you could send us a photo of your warehouse to <a href="mailto:feedback@mail.odoo.com?subject=Inventory%20Planner" target="_blank">feedback@mail.odoo.com</a></p>
+                    <p>Once it's fully working, give us some feedback: we love to hear from our customer. It would be great if you could send us a photo of your warehouse to <a href="mailto:eagle.it.services.com@gmail.com?subject=Inventory%20Planner" target="_blank">eagle.it.services.com@gmail.com</a></p>
                     <p><strong>Enjoy your Inventory management with Eagle ERP!</strong></p>
                     <p>- The Eagle ERP Team</p>
                     <img src="/web_planner/static/src/img/odoo_logo.png"/>
